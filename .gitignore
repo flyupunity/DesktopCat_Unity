@@ -1,4 +1,10 @@
 ###
+# My
+###
+.vscode
+
+
+###
 # Unity folders and files
 ###
 [Aa]ssets/AssetStoreTools*

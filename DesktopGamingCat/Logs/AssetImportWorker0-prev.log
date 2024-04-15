@@ -15,7 +15,7 @@ C:/Users/1/Desktop/Unity/Repository-DesktopCat_Unity/DesktopGamingCat
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56240
+60880
 -job-worker-count
 1
 -background-job-worker-count
@@ -58,12 +58,12 @@ C:/Users/1/Desktop/Unity/Repository-DesktopCat_Unity/DesktopGamingCat
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7520] Host "[IP] 192.168.251.250 [Port] 0 [Flags] 2 [Guid] 1902982258 [EditorId] 1902982258 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1KV3S04) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [7520] Host "[IP] 192.168.251.250 [Port] 0 [Flags] 2 [Guid] 1902982258 [EditorId] 1902982258 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1KV3S04) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17236] Host "[IP] 192.168.251.250 [Port] 0 [Flags] 2 [Guid] 1906758117 [EditorId] 1906758117 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1KV3S04) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17236] Host "[IP] 192.168.251.250 [Port] 0 [Flags] 2 [Guid] 1906758117 [EditorId] 1906758117 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1KV3S04) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 1
 [Physics::Module] Initialized MultithreadedJobDispatcher with 1 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 567.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 620.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.1f1 (a6dd9a634651)
 [Subsystems] Discovering subsystems at path C:/unity_flyup/2023.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -79,7 +79,7 @@ Initialize mono
 Mono path[0] = 'C:/unity_flyup/2023.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/unity_flyup/2023.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/unity_flyup/2023.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -95,44 +95,44 @@ Registering precompiled unity dll's ...
 Register platform support module: C:/unity_flyup/2023.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/unity_flyup/2023.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/unity_flyup/2023.2.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.011273 seconds.
-- Loaded All Assemblies, in  3.422 seconds
+Registered in 0.095776 seconds.
+- Loaded All Assemblies, in  3.082 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1650 ms
+Android Extension - Scanning For ADB Devices 6101 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  3.110 seconds
-Domain Reload Profiling: 6528ms
-	BeginReloadAssembly (255ms)
+- Finished resetting the current domain, in  8.188 seconds
+Domain Reload Profiling: 11252ms
+	BeginReloadAssembly (1422ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (399ms)
-	RebuildNativeTypeToScriptingClass (28ms)
-	initialDomainReloadingComplete (118ms)
-	LoadAllAssembliesAndSetupDomain (2617ms)
-		LoadAssemblies (252ms)
+		CreateAndSetChildDomain (5ms)
+	RebuildCommonClasses (172ms)
+	RebuildNativeTypeToScriptingClass (51ms)
+	initialDomainReloadingComplete (294ms)
+	LoadAllAssembliesAndSetupDomain (1122ms)
+		LoadAssemblies (1418ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (2610ms)
-			TypeCache.Refresh (2608ms)
-				TypeCache.ScanAssembly (1879ms)
-			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (3111ms)
+		AnalyzeDomain (1103ms)
+			TypeCache.Refresh (1094ms)
+				TypeCache.ScanAssembly (1036ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (8190ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2949ms)
+		SetupLoadedEditorAssemblies (7966ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2233ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (17ms)
-			ProcessInitializeOnLoadAttributes (488ms)
-			ProcessInitializeOnLoadMethodAttributes (201ms)
+			InitializePlatformSupportModulesInManaged (6846ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (24ms)
+			ProcessInitializeOnLoadAttributes (866ms)
+			ProcessInitializeOnLoadMethodAttributes (217ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -155,261 +155,50 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image C:\Users\1\Desktop\Unity\Repository-DesktopCat_Unity\DesktopGamingCat\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\1\Desktop\Unity\Repository-DesktopCat_Unity\DesktopGamingCat\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  8.163 seconds
-Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
+- Loaded All Assemblies, in 22.803 seconds
+Refreshing native plugins compatible for Editor in 3.90 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.649 seconds
-Domain Reload Profiling: 9806ms
-	BeginReloadAssembly (2073ms)
+- Finished resetting the current domain, in  5.423 seconds
+Domain Reload Profiling: 28224ms
+	BeginReloadAssembly (1894ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (19ms)
+		DisableScriptedObjects (17ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (69ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (70ms)
-	LoadAllAssembliesAndSetupDomain (5920ms)
-		LoadAssemblies (5119ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (129ms)
+	RebuildNativeTypeToScriptingClass (44ms)
+	initialDomainReloadingComplete (169ms)
+	LoadAllAssembliesAndSetupDomain (20558ms)
+		LoadAssemblies (14432ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (999ms)
-			TypeCache.Refresh (934ms)
-				TypeCache.ScanAssembly (648ms)
-			BuildScriptInfoCaches (49ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1650ms)
+		AnalyzeDomain (6487ms)
+			TypeCache.Refresh (6313ms)
+				TypeCache.ScanAssembly (4053ms)
+			BuildScriptInfoCaches (138ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (5429ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1126ms)
+		SetupLoadedEditorAssemblies (3900ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (55ms)
-			SetLoadedEditorAssemblies (17ms)
-			BeforeProcessingInitializeOnLoad (127ms)
-			ProcessInitializeOnLoadAttributes (851ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
-			AfterProcessingInitializeOnLoad (16ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (158ms)
+			SetLoadedEditorAssemblies (25ms)
+			BeforeProcessingInitializeOnLoad (442ms)
+			ProcessInitializeOnLoadAttributes (3078ms)
+			ProcessInitializeOnLoadMethodAttributes (147ms)
+			AfterProcessingInitializeOnLoad (50ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (30ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 2.07 seconds
-Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (59ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.94 seconds
+Refreshing native plugins compatible for Editor in 3.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3131 unused Assets / (0.8 MB). Loaded Objects now: 3692.
-Memory consumption went from 112.5 MB to 111.7 MB.
-Total: 8.648900 ms (FindLiveObjects: 0.483500 ms CreateObjectMapping: 0.418400 ms MarkObjects: 6.521900 ms  DeleteObjects: 1.223200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 171401.857727 seconds.
-  path: Assets/DesktopGame/Cat.blend1
-  artifactKey: Guid(44c3666db08d3c041bcb630cb0942280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DesktopGame/Cat.blend1 using Guid(44c3666db08d3c041bcb630cb0942280) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c679075eafe7a8151cbb1cfaa69255e') in 0.2533197 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/Scenes/SampleScene
-  artifactKey: Guid(e44c2ab2cbd80144dabd07f97da8b0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene using Guid(e44c2ab2cbd80144dabd07f97da8b0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f10b964b3dad5c0f14014508f23ea7b9') in 0.0007469 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41340e320bf9620513565c3a807fcb6e') in 0.0007983 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/DesktopGame/Cat.blend
-  artifactKey: Guid(80118883e30b1ee419e377171142e301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DesktopGame/Cat.blend using Guid(80118883e30b1ee419e377171142e301) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f64602e72e8266de6de01c9f96afb780') in 2.1867321 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 72.207347 seconds.
-  path: Assets/DesktopGame/1616475018_6-p-koshka-sboku-foto-koshka-6.jpg
-  artifactKey: Guid(2998d958095c42d4bae01f317d0bdb66) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DesktopGame/1616475018_6-p-koshka-sboku-foto-koshka-6.jpg using Guid(2998d958095c42d4bae01f317d0bdb66) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ade1b4916d5193a5050ddb41a05ccdc4') in 0.5053927 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Scenes/SampleScene/SampleScene_LightSettings.lighting
-  artifactKey: Guid(0a3459388a7177948a42a5c0a424ba2e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/SampleScene/SampleScene_LightSettings.lighting using Guid(0a3459388a7177948a42a5c0a424ba2e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
- -> (artifact id: '86fc9258a4f9775aa67ef5638a6e392c') in 0.1396404 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/DesktopGame/cat_face1.jpg
-  artifactKey: Guid(e5884942b45e5c34c8a8732dc4f28bdc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DesktopGame/cat_face1.jpg using Guid(e5884942b45e5c34c8a8732dc4f28bdc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b65dee2693a71afe3d3d4862caf3b329') in 0.1277736 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Scenes/SampleScene/ReflectionProbe-0.exr
-  artifactKey: Guid(d60a815f199d8bf4ab604f097ea6e124) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/SampleScene/ReflectionProbe-0.exr using Guid(d60a815f199d8bf4ab604f097ea6e124) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3fbad2aff697ae6a8fbfd676b656cc61') in 0.1173972 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/Scenes/SampleScene/LightingData.asset
-  artifactKey: Guid(b5410aa2bd0020f4b829b7e8f907bd2d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/SampleScene/LightingData.asset using Guid(b5410aa2bd0020f4b829b7e8f907bd2d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e57af8682a4b582beea836b33b17dbad') in 0.0498275 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/Materials/WhiteColor.mat
-  artifactKey: Guid(e38eeb3148f2fd644a0359f13185f72a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Materials/WhiteColor.mat using Guid(e38eeb3148f2fd644a0359f13185f72a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a1623598df37d6418e6f65ceadf43669') in 0.0947619 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e4d6e1e5a63573c586bbf2f13a840921') in 0.0566009 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/Materials/BlueLight.mat
-  artifactKey: Guid(882c8a8f39f206b42af9ba5f06e1db3b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Materials/BlueLight.mat using Guid(882c8a8f39f206b42af9ba5f06e1db3b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9e87b74c796033fea41794afc9f60985') in 0.0629827 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/DesktopGame/cat_face4.jpg
-  artifactKey: Guid(8078288239502cd4a96c52ae2bd7bd96) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DesktopGame/cat_face4.jpg using Guid(8078288239502cd4a96c52ae2bd7bd96) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
- -> (artifact id: '690a10158c3198113dcc365febac160c') in 0.1037079 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/DesktopGame/Cat.blend
-  artifactKey: Guid(80118883e30b1ee419e377171142e301) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DesktopGame/Cat.blend using Guid(80118883e30b1ee419e377171142e301) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
- -> (artifact id: '93dcf3ae004d7d8e9343f26804bcce42') in 0.5805723 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/DesktopGame/cat_face3.jpg
-  artifactKey: Guid(84fdb2f87c73e0d49ac11128d420e7ab) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DesktopGame/cat_face3.jpg using Guid(84fdb2f87c73e0d49ac11128d420e7ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7b23f32ff4f9bc7ff5c518013dd54024') in 0.1211288 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/DesktopGame/Cat.blend1
-  artifactKey: Guid(44c3666db08d3c041bcb630cb0942280) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DesktopGame/Cat.blend1 using Guid(44c3666db08d3c041bcb630cb0942280) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4d5330644229a93cb28b649e0fa889e8') in 0.0686652 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/DesktopGame/cat_face.jpg
-  artifactKey: Guid(c9bc9612af10402409e51c7ccc62e38d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DesktopGame/cat_face.jpg using Guid(c9bc9612af10402409e51c7ccc62e38d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ecd61766c556c86f4b2db48f0b1c6679') in 0.1177736 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Scripts/TransparentWindow.cs
-  artifactKey: Guid(2ec9c96778791564a8988bca38e23e35) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scripts/TransparentWindow.cs using Guid(2ec9c96778791564a8988bca38e23e35) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f0635cbe49b33d2cddf075d35fdfd7a0') in 0.0481887 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/DesktopGame/1682023665_pictures-pibig-info-p-kot-sboku-risunok-vkontakte-1.png
-  artifactKey: Guid(83c58e60adc0cd940848cdb61eea6808) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DesktopGame/1682023665_pictures-pibig-info-p-kot-sboku-risunok-vkontakte-1.png using Guid(83c58e60adc0cd940848cdb61eea6808) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c06a9fd7d9148b7f4772714bfc20ef5f') in 0.1644608 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/DesktopGame/cat_face2.jpg
-  artifactKey: Guid(0c2b3746f41a97a499f63e7a232d778b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/DesktopGame/cat_face2.jpg using Guid(0c2b3746f41a97a499f63e7a232d778b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f7ded6e3b663ddfc4a55d85806c78997') in 0.1252557 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Materials/RebLight.mat
-  artifactKey: Guid(5bc2bd7e65fe59c488275fe19b1170e7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Materials/RebLight.mat using Guid(5bc2bd7e65fe59c488275fe19b1170e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e82e6d1ca66b0e1d149507afdd512e0e') in 0.056112 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.470408 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
- -> (artifact id: '63cb85cf9929e7d1a75f88bf6b3d720d') in 0.1521538 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.662162 seconds.
-  path: Assets/Scripts/TransparentWindow.cs
-  artifactKey: Guid(2ec9c96778791564a8988bca38e23e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TransparentWindow.cs using Guid(2ec9c96778791564a8988bca38e23e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a8a8ed0ffff4a0be7e430f5e8e49ade') in 0.0009621 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.688079 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
- -> (artifact id: '280dc7a13361a7324d3f44dbed4a95aa') in 0.3210062 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+Unloading 3131 unused Assets / (1.0 MB). Loaded Objects now: 3692.
+Memory consumption went from 112.7 MB to 111.7 MB.
+Total: 26.987300 ms (FindLiveObjects: 1.032700 ms CreateObjectMapping: 1.059500 ms MarkObjects: 22.039000 ms  DeleteObjects: 2.852500 ms)
 
