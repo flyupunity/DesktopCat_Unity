@@ -4,6 +4,31 @@
 .vscode
 
 
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Aa]uto[Bb]uild/
+
+.vscode/
+.vs/
+
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.userprefs
+*.app
+.idea/
+*.VC.*
+.DS_Store
+*~
+*.swp
+
+*.log
+*.pyc
+
 ###
 # Unity folders and files
 ###
